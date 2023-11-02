@@ -1,14 +1,10 @@
 @font-face {
-	font-family: "Helvetica Neue";
-	src: url('/font/HelveticaNeueCyr-Roman.ttf') format('truetype');
-}
-/* Запрет изменения темы */
-@media (prefers-color-scheme: dark) {
-	body {
-	  background-color: #ffffff; /* Светлая тема */
-	  color: #000000; /* Цвет текста для светлой темы */
-	}
- }
+	font-family: 'balsamiqSansRegular';
+	src:
+		  url('../fonts/BalsamiqSans-Regular.ttf')  format('truetype')
+	  }
+ 
+
  
 * {
 	padding: 0;
@@ -37,13 +33,10 @@
  aside {
 	display: block;
  }
- html,
- body {
-	 background: #c8c8d1;
+ html {
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
-	font-family: "Helvetica Neue", sans-serif;
 	line-height: 1;
 	font-size: 14px;
 	-ms-text-size-adjust: 100%;
@@ -98,12 +91,6 @@
 	font-weight: 400;
  }
 
- @font-face {
-  font-family: 'balsamiqSansRegular';
-  src:
-		 url('../fonts/BalsamiqSans-Regular.ttf')  format('truetype')
-    }
-
 body{
 	background-color: black;
 	display: flex;
@@ -111,7 +98,6 @@ body{
 	align-items: center;
 }
  .logo-text{
-
 color: #CDA412;
 text-align: center;
 font-family: 'balsamiqSansRegular';
